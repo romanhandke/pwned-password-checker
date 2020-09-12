@@ -1,0 +1,23 @@
+{
+  "name": "@rhandke/password-checker",
+  "version": "0.0.1",
+  "description": "Check password against the haveibeenpwned API",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "Roman Handke",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^3.1.47",
+    "axios": "^0.20.0",
+    "crypto-js": "^4.0.0"
+  }
+}
