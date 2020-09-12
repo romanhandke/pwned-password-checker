@@ -2,7 +2,11 @@
   "name": "@rhandke/password-checker",
   "version": "0.0.1",
   "description": "Check password against the haveibeenpwned API",
-  "main": "lib/index.js",
+  "main": "lib/PasswordChecker.js",
+  "types": "lib/PasswordChecker.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "rm -rf ./lib && tsc"
   },
